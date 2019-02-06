@@ -2,7 +2,9 @@
 require('connexion.php');
 
 $appliBD=new Connexion();
-
+/* $appliBD->insertUtilisateur("Serge","Lulo","ko@buo.ch"); */
+$appliBD->insertAnimal("3", "lolu", "drako", "/home/cf/projets/instaWolf/images/loup_cours.jpeg",
+ "Wulfi", "2018-12-21", "femele", "loup blanc");
 
 /* if($appliBD->insertHobby("Lire")){
     echo "Bien inséré!";

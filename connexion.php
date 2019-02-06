@@ -84,35 +84,16 @@
             return $res;
         }
 
-        //Fonction insertHobby qui insère un hobby dans la base de données
-        function insertHobby($hobby){
+     
+// Fonction insertUtilisateur qui insère un utilisateur dans la base de données
+        function insertUtilisateur($pseudo,$motPasse,$email){
             try{
                 $requete_prepare=$this->connexion->prepare(
-                    "INSERT INTO Hobby (Type) values (:hobby)"
+                    "INSERT INTO Utilisateur (pseudo, motPasse, derniereConnexion, email)
+                     values (:pseudo, :motPasse, CURRENT_TIMESTAMP, :email)"
                 );
                 $requete_prepare->execute(
-                    array( 'hobby' => $hobby)
-                );
-                echo "Inséré! <br />";
-                return true;
-            }
-            catch(Exception $e){
-                echo 'Erreur : '.$e->getMessage().'<br />';
-                echo 'N° : '.$e->getCode();
-                echo "Pas inséré! <br />";
-                return false;
-            }
-        }
-        /*
-
-// Fonction insertMusique qui insère un style de musique dans la base de données
-        function insertMusique($music){
-            try{
-                $requete_prepare=$this->connexion->prepare(
-                    "INSERT INTO Musique (Type) values (:music)"
-                );
-                $requete_prepare->execute(
-                    array( 'music' => $music)
+                    array( 'pseudo' => $pseudo, 'motPasse' => $motPasse,'email' => $email)
                 );
                 echo "Inséré! <br />";
                 return true;
@@ -125,6 +106,27 @@
             }
         }
 
+// Fonction insertAnimal qui insère un loup dans la base de données
+function insertAnimal($idUtilisateur, $nom, $surnom, $cheminPhoto, $nomElevage, $dateNaissance, $sexe, $race){
+    try{
+        $requete_prepare=$this->connexion->prepare(
+            "INSERT INTO Animal (idUtilisateur, nom, surnom, cheminPhoto, nomElevage, dateNaissance, sexe, race) values (:idUtilisateur, :nom, :surnom, :cheminPhoto, :nomElevage, :dateNaissance, :sexe, :race)"
+        );
+        $requete_prepare->execute(
+            array( 'idUtilisateur' => $idUtilisateur, 'nom' => $nom, 'surnom' => $surnom, 'cheminPhoto' => $cheminPhoto, 'nomElevage' => $nomElevage, 'dateNaissance' => $dateNaissance, 'sexe' => $sexe, 'race' => $race)
+        );
+        echo "Inséré! <br />";
+        return true;
+    }
+    catch(Exception $e){
+        echo 'Erreur : '.$e->getMessage().'<br />';
+        echo 'N° : '.$e->getCode();
+        echo "Pas inséré! <br />";
+        return false;
+    }
+}
+/*
+ /*
 // Fonction insertPersonne qui insère une personne dans la base de données
         function insertPersonne($nom,$prenom,$url,$date,$statut){
             try{
