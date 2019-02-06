@@ -1,0 +1,1108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slaide.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!-- ////////////  MENU DE NAVUGATION RESPONSIVE  /////////-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning col-sm-6 col-md-4 col-lg-6 col-xl-12">
+    <a class="navbar-brand container-logo" href="Accueil.html"></a>
+    <img class="logo" src="images/logo_final.png" alt="Tete de loup" width="10%"></img></a>
+    <a class="navbar-brand" href="#">InstaWolf</a>
+
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse menu-nav" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ACCEUILL <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PROFIL</a>
+        </li>
+        <li class="nav-item deja_loup">
+          <a class="nav-link btn btn-primary text-white" type="button" href="#" data-toggle="modal" data-target="#myModal">Déjà
+            loup</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-danger text-white hulule" type="button" href="#" data-toggle="modal" data-target="#myModal">Hulule
+            avec nous</a>
+        </li>
+
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header deja_loup">
+                <h4 class="modal-title">Déjà loup</h4>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <form>
+                  <label class="sr-only" for="usrname">Surnom</label>
+                  <p>Surnom:</p>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Votre surnom" aria-label="Username"
+                      aria-describedby="basic-addon1">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email ddress</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+
+
+                  <label class="sr-only" for="Password">password</label>
+                  <p>Mot de passe:</p>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon2"><i class="fa fa-key"></i></span>
+                    </div>
+                    <input id="Password" type="password" class="form-control" placeholder="Ecriver votre emprante de loup"
+                      aria-label="Password" aria-describedby="basic-addon2">
+                  </div>
+                </form>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Rejoindre</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Pas manintenant</button>
+              </div>
+
+            </div>
+          </div>
+      </ul>
+      <!--INPUT SEARCH -->
+      <form class="form-inline container-search">
+        <input class="form-control mr-sm-2  input-search" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+      </form>
+      <!--// FIN SEARCH-->
+
+    </div>
+  </nav><!-- ////////////  FIN  MENU DE NAVUGATION RESPONSIVE  /////////-->
+
+  <!-- ////////////   SECTION DE NOTRE CONTENT MAIN  /////////-->
+  <main>
+    <!-- slaide -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/skubi.jpg" alt="First slide">
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- GALERIE DES IMAGES LES 6 PREMIERES IMAGES -->
+
+
+    <div class="container"><br>
+      <div class="jumbotron p-3 text-center">
+        <h1 class="display-4">Galería de fotos</h1>
+        <hr>
+        <p class="lead">Nueva presentaciones de fotos.. Bootstrap 4 + Material Design + LightBox[css]</p>
+      </div>
+
+
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger">
+              <i class="fa fa-photo"></i> Titulo imagen
+              <div class="float-right admion">
+                <i class="fa fa-trash" title="Eliminar foto"></i>
+                <i class="fa fa-edit" title="Editar foto"></i>
+                <i class="fa fa-exclamation-triangle" title="Enviar alerta al usuario"></i>
+              </div>
+            </div>
+            <a href="#img_2"><img src="https://cdn.dribbble.com/users/472131/screenshots/1806623/thevergematerialiconshot.png"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger">
+              <i class="fa fa-photo"></i> Titulo imagen
+              <div class="float-right admion">
+                <i class="fa fa-trash" title="Eliminar foto"></i>
+                <i class="fa fa-edit" title="Editar foto"></i>
+                <i class="fa fa-exclamation-triangle" title="Enviar alerta al usuario"></i>
+              </div>
+            </div>
+            <a href="#img_2"><img src="https://cdn.dribbble.com/users/472131/screenshots/1806623/thevergematerialiconshot.png"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+
+
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger">
+              <i class="fa fa-photo"></i> Titulo imagen
+              <div class="float-right admion">
+                <i class="fa fa-trash" title="Eliminar foto"></i>
+                <i class="fa fa-edit" title="Editar foto"></i>
+                <i class="fa fa-exclamation-triangle" title="Enviar alerta al usuario"></i>
+              </div>
+            </div>
+            <a href="#img_3"><img src="https://cdn.dribbble.com/users/68604/screenshots/2454569/tilt-brush-logo-animation-v1.gif"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+
+
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <br>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger"><i class="fa fa-photo"></i> Titulo imagen</div>
+            <a href="#img_4"><img src="https://i.pinimg.com/originals/4d/aa/ea/4daaead99826836876134ad10545b573.jpg"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_4"><button class="btn btn-raised btn-info">Ver foto</button></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger"><i class="fa fa-photo"></i> Titulo imagen</div>
+            <a href="#img_5"><img src="https://i.pinimg.com/736x/e0/0b/3c/e00b3cdf4426884aafb402689c12c621--security-logo-security-companies.jpg"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_5"><button class="btn btn-raised btn-info">Ver foto</button></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger"><i class="fa fa-photo"></i> Titulo imagen</div>
+            <a href="#img_6"><img src="https://cdn.dribbble.com/users/721394/screenshots/2015729/logo_shield.jpg" class="figure-img img-fluid rounded"
+                alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_6"><button class="btn btn-raised btn-info">Ver foto</button></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="clearfix"> </div>
+    <br>
+    <hr>
+    </div>
+    <!-- LightBox con CSS3 la visualizaciones con img+id ej: img_12 -->
+    <a href="#!" class="lightbox" id="img_1">
+      <img src="https://i.pinimg.com/564x/13/a3/7c/13a37ccb93adb2a1f304f0a2aade10a5.jpg">
+    </a>
+    <a href="#!" class="lightbox" id="img_2">
+      <img src="https://cdn.dribbble.com/users/472131/screenshots/1806623/thevergematerialiconshot.png">
+    </a>
+    <a href="#!" class="lightbox" id="img_3">
+      <img src="https://cdn.dribbble.com/users/68604/screenshots/2454569/tilt-brush-logo-animation-v1.gif">
+    </a>
+    <a href="#!" class="lightbox" id="img_4">
+      <img src="https://i.pinimg.com/originals/4d/aa/ea/4daaead99826836876134ad10545b573.jpg">
+    </a>
+    <a href="#!" class="lightbox" id="img_5">
+      <img src="https://i.pinimg.com/736x/e0/0b/3c/e00b3cdf4426884aafb402689c12c621--security-logo-security-companies.jpg">
+    </a>
+    <a href="#!" class="lightbox" id="img_6">
+      <img src="https://cdn.dribbble.com/users/721394/screenshots/2015729/logo_shield.jpg">
+    </a>
+
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <!-- GALERIE DES IMAGES LES 6 der IMAGES -->
+
+
+    <div class="container"><br>
+
+
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger">
+              <i class="fa fa-photo"></i> Titulo imagen
+              <div class="float-right admion">
+                <i class="fa fa-trash" title="Eliminar foto"></i>
+                <i class="fa fa-edit" title="Editar foto"></i>
+                <i class="fa fa-exclamation-triangle" title="Enviar alerta al usuario"></i>
+              </div>
+            </div>
+            <a href="#img_2"><img src="https://cdn.dribbble.com/users/472131/screenshots/1806623/thevergematerialiconshot.png"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_2"><button class="btn btn-raised btn-info">Ver foto</button></a>
+
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger">
+              <i class="fa fa-photo"></i> Titulo imagen
+              <div class="float-right admion">
+                <i class="fa fa-trash" title="Eliminar foto"></i>
+                <i class="fa fa-edit" title="Editar foto"></i>
+                <i class="fa fa-exclamation-triangle" title="Enviar alerta al usuario"></i>
+              </div>
+            </div>
+            <a href="#img_2"><img src="https://cdn.dribbble.com/users/472131/screenshots/1806623/thevergematerialiconshot.png"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_2"><button class="btn btn-raised btn-info">Ver foto</button></a>
+
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger">
+              <i class="fa fa-photo"></i> Titulo imagen
+              <div class="float-right admion">
+                <i class="fa fa-trash" title="Eliminar foto"></i>
+                <i class="fa fa-edit" title="Editar foto"></i>
+                <i class="fa fa-exclamation-triangle" title="Enviar alerta al usuario"></i>
+              </div>
+            </div>
+            <a href="#img_3"><img src="https://cdn.dribbble.com/users/68604/screenshots/2454569/tilt-brush-logo-animation-v1.gif"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_3"><button class="btn btn-raised btn-info">Ver foto</button></a>
+
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <br>
+
+      <hr>
+      <BR>
+
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger"><i class="fa fa-photo"></i> Titulo imagen</div>
+            <a href="#img_4"><img src="https://i.pinimg.com/originals/4d/aa/ea/4daaead99826836876134ad10545b573.jpg"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_4"><button class="btn btn-raised btn-info">Ver foto</button></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger"><i class="fa fa-photo"></i> Titulo imagen</div>
+            <a href="#img_5"><img src="https://i.pinimg.com/736x/e0/0b/3c/e00b3cdf4426884aafb402689c12c621--security-logo-security-companies.jpg"
+                class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_5"><button class="btn btn-raised btn-info">Ver foto</button></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <figure class="figure f_img thumbnail">
+            <div class="figure-head p-2 bg-danger"><i class="fa fa-photo"></i> Titulo imagen</div>
+            <a href="#img_6"><img src="https://cdn.dribbble.com/users/721394/screenshots/2015729/logo_shield.jpg" class="figure-img img-fluid rounded"
+                alt="titulo de la foto"></a>
+            <figcaption class="figure-caption">
+              <div class="p-2 text-center">
+                <a href="#img_6"><button class="btn btn-raised btn-info">Ver foto</button></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="clearfix"> </div>
+    <br>
+    <hr>
+    </div>
+    <!-- LightBox con CSS3 la visualizaciones con img+id ej: img_12 -->
+    <a href="#!" class="lightbox" id="img_1">
+      <img src="https://i.pinimg.com/564x/13/a3/7c/13a37ccb93adb2a1f304f0a2aade10a5.jpg">
+    </a>
+    <a href="#!" class="lightbox" id="img_2">
+      <img src="https://cdn.dribbble.com/users/472131/screenshots/1806623/thevergematerialiconshot.png">
+    </a>
+    <a href="#!" class="lightbox" id="img_3">
+      <img src="https://cdn.dribbble.com/users/68604/screenshots/2454569/tilt-brush-logo-animation-v1.gif">
+    </a>
+    <a href="#!" class="lightbox" id="img_4">
+      <img src="https://i.pinimg.com/originals/4d/aa/ea/4daaead99826836876134ad10545b573.jpg">
+    </a>
+    <a href="#!" class="lightbox" id="img_5">
+      <img src="https://i.pinimg.com/736x/e0/0b/3c/e00b3cdf4426884aafb402689c12c621--security-logo-security-companies.jpg">
+    </a>
+    <a href="#!" class="lightbox" id="img_6">
+      <img src="https://cdn.dribbble.com/users/721394/screenshots/2015729/logo_shield.jpg">
+    </a>
+
+
+
+  </main><!-- ////////////  FIN  SECTION DE NOTRE CONTENT MAIN  /////////-->
+
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Album example</h1>
+      <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc.
+        Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+      </p>
+    </div>
+  </section>
+  <!-- GALERIE DES IMAGES PAG ED'ACCEUIL -->
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <!-- PHOTO NUMERO 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO  -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 4 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 5 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 6 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 7 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 8 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 9 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 10 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 11 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTO NUMERO 12-->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" src="images/boxer.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FIN DES IMAGES -->
+      </div>
+    </div>
+  </div>
+<!-- FIN DE GALERIE -->
+  </main>
+  <h1 class="title">Flip Menu. Clickable/Responsive/Pure CSS</h1>
+  <p class="creds">Created by <a target="_blank" href="https://twitter.com/fornyhucker">fornyhucker</a></p>
+  <div class="flip-menu">
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="a">
+      <label for="a" class="flip-item">
+        <figure class="front"><img src="http://lorempixel.com/500/500/food/1" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/1" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="b">
+      <label for="b" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/2" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/2" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="c">
+      <label for="c" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/3" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/3" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="d">
+      <label for="d" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/4" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/4" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="e">
+      <label for="e" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/5" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/5" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="f">
+      <label for="f" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/6" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/6" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="g">
+      <label for="g" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/7" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/7" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="h">
+      <label for="h" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/8" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/8" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="j">
+      <label for="j" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/9" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/9" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="k">
+      <label for="k" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/10" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/10" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="l">
+      <label for="l" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/1" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/1" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="m">
+      <label for="m" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/2" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/2" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+  </div>
+
+  <div class="flip-menu">
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="a">
+      <label for="a" class="flip-item">
+        <figure class="front"><img src="http://lorempixel.com/500/500/food/1" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/1" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="b">
+      <label for="b" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/2" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/2" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="c">
+      <label for="c" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/3" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/3" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="d">
+      <label for="d" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/4" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/4" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="e">
+      <label for="e" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/5" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/5" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="f">
+      <label for="f" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/6" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/6" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="g">
+      <label for="g" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/7" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/7" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="h">
+      <label for="h" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/8" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/8" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="j">
+      <label for="j" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/9" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/9" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="k">
+      <label for="k" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/10" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/10" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="l">
+      <label for="l" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/1" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/1" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+    <section class="flip-item-wrap">
+      <img class="fake-image" src="http://lorempixel.com/500/500/food/1" alt=""><!-- this image will add height to parent element -->
+      <input type="checkbox" class="flipper" id="m">
+      <label for="m" class="flip-item">
+          <figure class="front"><img src="http://lorempixel.com/500/500/food/2" alt=""></img></figure>
+          <figure class="back">
+            <img src="http://lorempixel.com/g/500/500/food/2" alt=""></img>
+            <div class="flip-item-desc">
+              <h4 class="flip-item-title">Lorem ipsum dolor</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Vestibulum posuere turpis lacus.</p>
+            </div>
+          </figure>
+      </label>
+    </section>
+  </div>
+<!-- //////////////////////////////////////////////////////////////////// -->
+
+<div class="case-study-gallery">
+  <h1 class="title">CASE STUDIES</h1>
+  <p>This is an example of a portfolio gallery. It has some simple hover transitions and is pretty rad.</p>
+<div class="case-study study1">
+	<figure>
+		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+	</figure>
+  <div class="case-study__overlay">
+  	<h2 class="case-study__title">Developing Hexxis</h2>
+    <a class="case-study__link" href="#">View Case Study</a>
+  </div>
+</div>
+  
+<div class="case-study study2">
+	<figure>
+		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+	</figure>
+  <div class="case-study__overlay">
+  	<h2 class="case-study__title">Developing Hexxis</h2>
+    <a class="case-study__link" href="#">View Case Study</a>
+  </div>
+</div>
+  
+<div class="case-study study3">
+	<figure>
+		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+	</figure>
+  <div class="case-study__overlay">
+  	<h2 class="case-study__title">Developing Hexxis</h2>
+    <a class="case-study__link" href="#">View Case Study</a>
+  </div>
+</div>
+  
+<div class="case-study study4">
+	<figure>
+		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+	</figure>
+  <div class="case-study__overlay">
+  	<h2 class="case-study__title">Developing Hexxis</h2>
+    <a class="case-study__link" href="#">View Case Study</a>
+  </div>
+</div>
+  
+<div class="case-study study5">
+	<figure>
+		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+	</figure>
+  <div class="case-study__overlay">
+  	<h2 class="case-study__title">Developing Hexxis</h2>
+    <a class="case-study__link" href="#">View Case Study</a>
+  </div>
+</div>
+  
+<div class="case-study study6">
+	<figure>
+		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+	</figure>
+  <div class="case-study__overlay">
+  	<h2 class="case-study__title">Developing Hexxis</h2>
+    <a class="case-study__link" href="#">View Case Study</a>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<!-- ////////////////////////// -->
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+      <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+      <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting
+          started guide</a>.</p>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>© 2017-2018 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    </main>
+    <!-- ////////////   SECTION DE NOTRE MENU FOOTER MENU  /////////-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning col-sm-6 col-md-4 col-lg-6 col-xl-12">
+      <a class="navbar-brand container-logo" href="Accueil.html"></a>
+      <img class="logo" src="images/logo_final.png" alt="Tete de loup" width="10%"></img></a>
+      <a class="navbar-brand" href="#">InstaWolf</a>
+
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse menu-nav" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">ACCEUILL <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">POFIL</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">AGRENDIR LA MOUTE</a>
+          </li>
+
+
+
+        </ul>
+        <!--INPUT SEARCH -->
+        <form class="form-inline container-search">
+          <input class="form-control mr-sm-2  input-search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+        </form>
+        <!--// FIN SEARCH-->
+
+      </div>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
