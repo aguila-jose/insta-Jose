@@ -125,6 +125,21 @@ function insertAnimal($idUtilisateur, $nom, $surnom, $cheminPhoto, $nomElevage, 
         return false;
     }
 }
+
+//Fontion insertArticle qui insère article dans la base de données
+
+    function insertArticle($idAnimal, $idtexte, $cheminPhoto, $datePublication ){
+
+        try{
+
+        }catch{
+            
+        }
+
+
+
+    }
+
 /*
  /*
 // Fonction insertPersonne qui insère une personne dans la base de données
